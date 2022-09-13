@@ -1,3 +1,4 @@
+alert("This webpage is not Responsive");
 var bar = document.getElementById('bar');
 var menu = document.getElementById('nav-bar');
 bar.addEventListener("click", () => {
@@ -11,7 +12,7 @@ bar.addEventListener("click", () => {
     }
 });
 
-var imges = ["img/logo1.jpg", "img/logo2.jpg", "img/logo3.jpg", "img/logo4.jpg", "img/logo5.jpg"];
+var imges = ["logo1.jpg", "logo2.jpg", "logo3.jpg", "logo4.jpg", "logo5.jpg"];
 var tag = document.getElementById('img');
 var count = 0;
 
